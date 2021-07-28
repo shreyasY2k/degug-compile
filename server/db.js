@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
-const MONGOURI = "SERVERURI";
+const MONGOURI =
+  "URI";
 
 const InitiateMongoServer = async () => {
   try {
